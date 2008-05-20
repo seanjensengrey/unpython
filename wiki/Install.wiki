@@ -1,0 +1,9 @@
+#summary How to install and run unPython
+#labels Phase-Deploy
+
+=Requirements=
+To install unPython, you need Python 2.5 (other versions may or may not work, untested) and Java 5 or Java 6. 
+=Download=
+Download the zip file from google code.
+=Install=
+Unzip downloaded file. This can be done by the command "unzip" or a GUI tool available on your platform. It will create a new folder called "unpython". The new folder will contain some .py files and a few jar files. First, open frontend.py in a text editor. You will see a variable called "jarpath". Edit the value of jarpath to the ABSOLUTE path of the all the jars in the unpython folder. You may also need to edit the path to Python includes, numpy includes and the path to the C compiler in frontend.py.
