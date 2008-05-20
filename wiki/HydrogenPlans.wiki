@@ -7,10 +7,12 @@ unPython Hydrogen will be the first major release of unPython and is scheduled f
 
 = Details =
 
-unPython Hydrogen alpha 1 is already available. alpha1 is a very preliminary release.
+==Alpha1==
+unPython Hydrogen alpha 1 is will be available by 21 May. 
+alpha1 is a very preliminary release. It features basic support for functions and classes, 
+and basic support for int, float, double and ndarrays. Alpha1 is a very very preliminary and users should not expect it to work AT ALL.
 
 ==Alpha2==
 Hydrogen alpha2 will add the following components to alpha1 :
   # Support for lists, tuples and dicts
   # Support for ufuncs including the predefined numpy ufuncs like sin,cos etc
-
