@@ -1,0 +1,9 @@
+#summary how to get source from launchpad
+
+= How to get source =
+
+Source is hosted on launchpad in a bazaar repository.
+You can get source through :
+{{{
+bzr branch lp:unpython
+}}}
