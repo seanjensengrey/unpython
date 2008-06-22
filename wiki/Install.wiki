@@ -2,7 +2,8 @@
 #labels Phase-Deploy
 
 =Requirements=
-To install unPython, you need Python 2.5 (other versions may or may not work, untested) and Java 5 or Java 6. 
+To install unPython, you need Python 2.5 (other versions may or may not work, untested) and Java 5 or Java 6. Currently I have only tested on Linux 32-bit but I believe getting it to work on other OS is not hard.
+
 =Download=
 Download the zip file from google code.
 =Install=
