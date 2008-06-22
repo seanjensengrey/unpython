@@ -3,23 +3,23 @@ Currently the situation is as follows. Note that development is going fast and f
 
 = Supported =
 
-  *Data types supported : int, float, double, ndarray.
-  *User defined classes supported.
-  *Functions supported.
+  * Data types supported : int, float, double, ndarray.
+  * User defined classes supported.
+  * Functions supported.
 
 = Not supported =
 
-  *Lists, dicts, tuples 
-  *Multiple inheritance.
-  *Keyword arguments.
-  *Lambda
-  *Exceptions
-  *Decorators
-  *Iterators and generators
-  *Dynamic code execution
-  *Metaclasses
-  *Negative indices for ndarray.
+  * Lists, dicts, tuples 
+  * Multiple inheritance.
+  * Keyword arguments.
+  * Lambda
+  * Exceptions
+  * Decorators
+  * Iterators and generators
+  * Dynamic code execution
+  * Metaclasses
+  * Negative indices for ndarray.
 
 = Broken. Being fixed =
-  *Imports
-  *While loop
+  * Imports
+  * While loop
