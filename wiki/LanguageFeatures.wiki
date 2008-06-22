@@ -25,6 +25,7 @@ Currently the situation is as follows. Note that development is going fast and f
   * Properties, staticmethod, classmethod, class attributes.
   * Magic methods such as __new__, __add__ etc.
   * "with" statement 
+  * subclassing int, float, double or ndarray
 
 = Broken. Being fixed =
   * Imports
