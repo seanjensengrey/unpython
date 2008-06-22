@@ -6,6 +6,7 @@ Currently the situation is as follows. Note that development is going fast and f
   * Data types supported : int, float, double, ndarray.
   * User defined classes supported.
   * Functions supported.
+  * For loop over range/xrange.
 
 = Not supported =
 
@@ -19,6 +20,8 @@ Currently the situation is as follows. Note that development is going fast and f
   * Dynamic code execution
   * Metaclasses
   * Negative indices for ndarray.
+  * Ufuncs
+  * Dynamic redefinition of functions and classes etc.
 
 = Broken. Being fixed =
   * Imports
