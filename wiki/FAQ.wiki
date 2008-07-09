@@ -10,7 +10,7 @@ unPython is a Python-to-C compiler. It takes a type-annotated subset of Python s
 
 No. Only a subset of Python is supported. Plus a subset of NumPy is also supported.
 
-*Does it compile unmodified Python code*
+*Does it compile unmodified Python code?*
 
 No. You need to modify your Python module. You will need to add some directives. For example type declarations will be necessary in some cases.
 
