@@ -1,0 +1,22 @@
+#summary License is GPLv3 with additional permissions.
+
+= License  =
+License is GPLv3 with additional permissions. Permissions are detailed below.
+
+
+= Details =
+
+unPython is distributed under the GNU General Public License version 3 with additional permissions. The following "Additional Permissions" are granted by Rahul Garg under GNU GPL version 3 section 7.
+
+  * If you modify this program, or any covered work, by linking or combining it with the Visigoth Software Society's FreeMarker library, containing parts covered by the terms of the FreeMarker licenses, or a modified version of the FreeMarker library under the FreeMarker license, Rahul Garg grants you additional permission to convey the resulting work. Corresponding Source for a non-source form of such a combination shall include the source code for the parts of FreeMarker used as well as that of the covered work.
+   
+  * If you modify this program, or any covered work, by linking or combining it with software (hereby referred to as "Your Software"), Rahul Garg grants you additional permission to convey the resulting work provided that 
+    * Your software is licensed under one of the following licenses:
+      # Common Development and Distribution License 1.0
+      # Eclipse Public License v1.0
+      # Common Public License v1.0 
+    * Corresponding Source for non-source form of such a combination shall include the source code of Your Software.
+    * Your or any other contributor's rights to:
+      # distribute the source code of Your Software to anyone for any purpose and
+      # publicly discuss the development project for Your Software and its goals in any form and in any forum are not prohibited by any legal instrument, including but not limited to contracts, non-disclosure agreements, and employee contracts. 
+  * If this program copies any FreeMarker template files into one or more output files, you may use that output file without restriction. 
