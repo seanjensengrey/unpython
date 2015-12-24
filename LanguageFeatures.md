@@ -1,0 +1,31 @@
+Currently the situation is as follows. Note that development is going fast and features are quickly moving from "not supported" to supported.
+
+# Supported #
+
+  * Data types supported : int, float, double, ndarray.
+  * User defined classes supported.
+  * Functions supported.
+  * For loop over range/xrange.
+
+# Not supported #
+
+  * Lists, dicts, tuples
+  * Multiple inheritance.
+  * Keyword arguments.
+  * Lambda
+  * Exceptions
+  * Decorators
+  * Iterators and generators
+  * Dynamic code execution
+  * Metaclasses
+  * Negative indices for ndarray.
+  * Ufuncs
+  * Dynamic redefinition of functions and classes etc.
+  * Properties, staticmethod, classmethod, class attributes.
+  * Magic methods such as new, add etc.
+  * "with" statement
+  * subclassing int, float, double or ndarray
+
+# Broken. Being fixed #
+  * Imports
+  * While loop

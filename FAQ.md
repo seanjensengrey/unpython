@@ -1,0 +1,29 @@
+# FAQ #
+
+**What is unPython?**
+
+unPython is a Python-to-C compiler. It takes a type-annotated subset of Python source code as input and produces C code for CPython extension modules.
+
+**Does it compile arbitrary Python code?**
+
+No. Only a subset of Python is supported. Plus a subset of NumPy is also supported.
+
+**Does it compile unmodified Python code?**
+
+No. You need to modify your Python module. You will need to add some directives. For example type declarations will be necessary in some cases.
+
+**After modification, will my file still be valid Python and will it run on the interpreter?**
+
+The file will be still 100% valid Python. The extra unPython directives are added through decorators or in some cases as strings discarded by the interpreter. The modified source is guaranteed to run on the interpreter.
+
+**Who are the target users?**
+
+The compiler is most useful for scientific/numerical apps in Python written using NumPy. The compiler is not suitable for general purpose apps. If you are looking to speedup your Django app for example, unPython may or may not be for you.
+
+**What subset of Python will be supported in the future?**
+
+Objective is to have basic support for functions and classes and have some support for lists, dicts and tuples. NumPy arrays will mostly be supported. Dynamic features of Python, such as runtime code loading, metaclasses etc will not be supported. Decorators, generators and iterators will probably not be supported. Exceptions will be partially supported.
+
+**What are the release plans?**
+
+Compiler is in a very preliminary stage. You can download a prelim version. By mid-July we expect to have a compiler which will have basic support for classes, functions, numpy arrays, tuples, lists and dicts. Parallel loops will also be supported.
